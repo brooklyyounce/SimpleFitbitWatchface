@@ -1,0 +1,28 @@
+<svg>
+    <rect id="outerBorder" />
+    <rect id="innerBorder" />
+    <text id="myClock" />
+    <text id="myClockSeconds" />
+    <text id="day" />
+  <svg>
+    <text id="myBatteryLevel" class="topText">%%</text>
+    <text id="todayDate" class="topText">todayDate</text>
+  </svg>
+  
+    <svg>
+    <arc id="bottomArc" />
+  </svg>
+    <svg>
+    <text id="mySteps" class="bottomText">mySteps</text>
+    <image href="stat_steps_open_32px.png" class="bottomImage"/>
+    <text id="myHR" class="bottomText">HR</text>
+    <image href="stat_hr_solid_32px.png" class="bottomImage"/>
+   </svg>
+    <svg>
+     <rect id="outerBottomBorder" />
+    <rect id="innerBottomBorder" />
+  </svg>
+    <svg>
+    <text id="numOfDay">##</text>
+  </svg>
+  </svg>
