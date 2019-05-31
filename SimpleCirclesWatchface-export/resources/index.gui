@@ -1,0 +1,24 @@
+<svg>
+    <rect id="outerBorder" />
+    <rect id="innerBorder" />
+    <text id="myClock" />
+    <text id="myClockSeconds" />
+    <text id="day" />
+  <svg>
+    <arc id="topArc" />
+    <arc id="topArc" />
+  </svg>
+  <svg>
+    <text id="myBatteryLevel" class="topText">%%</text>
+    <text id="todayDate" class="topText">todayDate</text>
+  </svg>
+  
+    <svg>
+    <arc id="bottomArc" />
+    <arc id="bottomArc" />
+  </svg>
+    <svg>
+    <text id="mySteps" class="bottomText">mySteps</text>
+    <text id="myHR" class="bottomText">HR</text>
+   </svg>
+  </svg>

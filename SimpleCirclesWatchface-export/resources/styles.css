@@ -1,0 +1,87 @@
+.background {
+  viewport-fill: black;
+  width: 100%;
+  height: 100%;
+}
+
+#myClock {
+  font-size: 65;
+  font-family: Colfax-Black;
+  text-length: 8;
+  text-anchor: middle;
+  x: 43%;
+  y: 80;
+  fill: white;
+}
+#myClockSeconds {
+  font-size: 30;
+  font-family: Colfax-Regular;
+  text-length: 4;
+  text-anchor: middle;
+  x: $+35;
+  y: 83;
+  fill: white;
+}
+#day{
+  font-size: 30;
+  font-family: Colfax-Black;
+  text-length: 4;
+  text-anchor: middle;
+  x: $;
+  y: 40;
+  fill: white;
+}
+
+#outerBorder{
+  x: 0;
+  y: 0;
+  width: 99%;
+  height: 99%;
+  fill: magenta;
+}
+#innerBorder{
+  x: 1;
+  y: 1;
+  width: 98%;
+  height: 98%;
+  fill: black;
+}
+
+#topArc{
+  x: $+20;
+  y: 95;
+  width: 115;
+  height: 85;
+  fill: aqua;
+  arc-width: 5;
+  start-angle: 0;
+  sweep-angle: 360;
+}
+#bottomArc{
+  x: $+10;
+  y: 190;
+  width: 130;
+  height: 85;
+  fill: deeppink;
+  arc-width: 5;
+  start-angle: 0;
+  sweep-angle: 360;
+}
+.topText{
+  font-size: 25;
+  font-family: Colfax-Regular;
+  text-length: 15;
+  x: $+60;
+  y: 150;
+  fill: white;
+}
+.bottomText{
+  font-size: 25;
+  font-family: Colfax-Regular;
+  text-length: 15;
+  text-anchor: middle;
+  x: $+80;
+  y: 245;
+  fill: white;
+}
+
